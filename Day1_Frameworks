@@ -1,0 +1,58 @@
+The puzzels are broken up pieces of known frameworks used in cyber security. 
+
+Open up the View Site option in Task 6 
+
+
+
+Puzzel 1: 
+
+1: Reconnaissance 
+
+2: Weaponization
+
+3: Delivery 
+
+4: Social Engineering
+
+5: Exploitation
+
+6: Persistence
+
+7: Defence Evasion
+
+8: Command and Control
+
+Puzzel 2: 
+
+1: Pivoting
+
+2: Discovery 
+
+3: Privilege
+
+4: Execution
+
+5: Credential Access
+
+6: Lateral Movement
+
+Puzzel 3: 
+
+1: Access
+
+2: Collection
+
+3: Exfiltration
+
+4: Impact
+
+5: Objectives
+
+Q1: 
+Who is the adversary that attacked Santa's network this year?
+A1: The Bandit Yeti
+
+Q2: 
+What's the flag that they left behind?
+A2:
+THM{IT'S A Y3TI CHR1$TMA$}

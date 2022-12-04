@@ -1,0 +1,31 @@
+As the elves are trying to recover the compromised santagift.shop website, elf Recon McRed is trying to figure out how it was compromised in the first place. Can you help him in gathering open-source information against the website?  
+
+Q1: What is the name of the Registrar for the domain santagift.shop?
+
+A1: Navigate to [https://www.whois.com/whois/santagift.shop](https://www.whois.com/whois/santagift.shop)
+
+Registrar:**Namecheap Inc.**
+
+Q2: Find the website's source code (repository) on [github.com](https://github.com/) and open the file containing sensitive credentials. Can you find the flag?
+
+A2: Navigaste to github and search santagiftshop   [https://github.com/muhammadthm/SantaGiftShop/blob/main/](https://github.com/muhammadthm/SantaGiftShop/blob/main/config.php)
+
+in the README file you can see:
+
+The **config.php** file contains the credentials for database connection and must be handled with care.
+
+$FLAG = '**{THM_OSINT_WORKS}**'
+
+Q3: What is the name of the file containing passwords?
+
+**A3: config.php**
+
+Q4: What is the name of the QA server associated with the website?
+
+**A4:** **qa.santagift.shop**
+
+Q5: What is the DB_PASSWORD that is being reused between the QA and PROD environments?
+
+**A5: S@nta2022**
+
+Q6: Check out this [room](https://tryhackme.com/room/googledorking) if you'd like to learn more about Google Dorking!

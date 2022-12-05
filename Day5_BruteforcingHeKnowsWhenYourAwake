@@ -1,0 +1,30 @@
+Start with Scanning nmap -sS <MACHINE_IP>
+
+You will see the VNC Service running 
+
+Q1: Use Hydra to find the VNC password of the target with IP address `MACHINE_IP`. What is the password?
+
+Use Hydra to scan the target using the vnc service
+
+$ hydra -P /usr/share/wordlists/rockyou.txt vnc://10.10.158.70 -V -f -t 4 
+
+this will complete with the password 
+
+Flags used: 
+
+-P: Specify the password list i.e:/usr/share/wordlists/rockyou.txt
+
+-V: Verbose mode
+
+-f: Exit when login is found
+
+-t 4: Number of connects in parallel overall  
+
+A1:1q2w3e4r
+
+
+Q2: Using a VNC client on the AttackBox, connect to the target of IP address `MACHINE_IP`. What is the flag written on the target’s screen?
+
+Connect to the VNC server using Remmina and the password you just got.
+
+A2: THM{I_SEE_YOUR_SCREEN}

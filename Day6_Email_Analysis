@@ -1,0 +1,55 @@
+# Day 6: Email Analysis It’s beginning to look a lot like phishing
+
+Email File Name: Urgent.eml 
+
+Q1: What is the email address of the sender?
+
+A1: chief.elf@santaclaus.thm
+
+Q2: What is the return address?
+
+A2: murphy.evident@bandityeti.thm
+
+Q3: On whose behalf was the email sent?
+
+A3: chief elf
+
+Q4: What is the X-spam score?
+
+A4: 3
+
+Q5: What is hidden in the value of the Message-ID field?
+
+$echo QW9DMjAyMl9FbWFpbF9BbmFseXNpcw== | base64 —decode
+
+A5: AoC2022_Email_Analysis
+
+Visit the email reputation check website provided in the task.
+
+Q6: What is the reputation result of the sender's email address?
+
+A6: Risky
+
+ Check the attachments.
+
+Q7: What is the filename of the attachment?
+
+Devision_of_labour-Load_share_plan.doc
+
+Q8: What is the hash value of the attachment?
+
+A8: 0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467
+
+Visit the Virus Total website and use the hash value to search.
+
+Navigate to the behaviour section.
+
+Q9: What is the second tactic marked in the Mitre ATT&CK section?
+
+A9:  Defense evasion
+
+Visit the InQuest website and use the hash value to search.
+
+Q10: What is the subcategory of the file?
+
+A10: macro_hunter

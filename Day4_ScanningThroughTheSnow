@@ -1,1 +1,27 @@
+What is the name of the HTTP server running on the remote host?
 
+Run a nikto scan.
+
+$nikto -host <MACHINE IP>
+
+  A1: Apache
+
+What is the name of the service running on port 22 on the QA server?
+
+Run a nmap scan with $ nmap -sS 10.10.52.117
+
+  A2: ssh
+
+What flag can you find after successfully accessing the Samba service?
+
+Open up a explorer window and connect to the SMB server SMB://10.10.52.117/admin
+
+Open up the flag.txt file.
+  
+  A3: {THM_SANTA_SMB_SERVER}
+
+What is the password for the username santahr?
+
+Open up the user list. 
+
+  A4: santa25
